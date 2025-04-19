@@ -34,4 +34,3 @@ Timber::init();
 Timber::$dirname = ['templates', 'views'];
 
 new StarterTimber();
-
