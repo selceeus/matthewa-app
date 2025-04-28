@@ -20,10 +20,10 @@ require_once get_template_directory() . '/lib/lib-utilities.php';
 // Get ACF and ACF Blocks defaults
 require_once get_template_directory() . '/lib/lib-acf.php';
 
-/**
- * We're going to configure our theme inside of a subclass of Timber\Site
- */
+// Setup Admin
+require_once get_template_directory() . '/lib/lib-admin.php';
 
+// Configure Timber in a subclass
 require_once get_template_directory() . '/lib/lib-timber.php';
 
 Timber::init();
@@ -34,4 +34,5 @@ Timber::init();
 Timber::$dirname = ['templates', 'views'];
 
 new StarterTimber();
+new Admin();
 
