@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
 
   // Add background divs
   if ($('#poststuff #side-sortables').length != 0 && !$('body').is('.index-php')) {
-    //$('#side-sortables').before('<div id="side-sortablesback"></div>');
+    $('#side-sortables').before('<div id="side-sortablesback"></div>');
   }
   if ($('.edit-tags-php #col-left').length != 0) {
     $('.edit-tags-php #col-left').before('<div id="col-leftback"></div>');

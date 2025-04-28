@@ -599,6 +599,9 @@ div.updated {
 #adminmenu li.opensub a.menu-top,
 #adminmenu li:hover div.wp-menu-image:before {
   color: #2ea2cc;
+  outline:1px solid #2ea2cc;
+  outline-offset: 2px;
+  border-radius:3px;
 }
 
 #adminmenu .current div.wp-menu-image:before,
@@ -1409,6 +1412,7 @@ div.mce-toolbar-grp>.mce-container-body {
   top: 0;
   width: 299px;
   z-index: -1;
+  height: 96.35svh;
 }
 
 .branch-4-6 #side-sortablesback,
@@ -1745,7 +1749,7 @@ table.comments tr td:last-child {
 
 .wp-list-table tr:hover,
 table.comments tr:hover {
-  background: #eeecec !important;
+  background: #f0f0f0 !important;
 }
 
 .wp-list-table .alt,
@@ -1829,6 +1833,7 @@ table.comments.striped>tbody> :nth-child(odd) {
   top: 0;
   width: 35%;
   z-index: -1;
+  height: 96.35svh;
 }
 
 @media only screen and (max-width: 768px) {
