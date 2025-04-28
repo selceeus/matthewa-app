@@ -591,17 +591,24 @@ div.updated {
   color: #ccc;
 }
 
-#adminmenu .wp-submenu a:focus,
 #adminmenu .wp-submenu a:hover,
 #adminmenu a:hover,
-#adminmenu li.menu-top>a:focus,
 #adminmenu li.opensub a,
 #adminmenu li.opensub a.menu-top,
 #adminmenu li:hover div.wp-menu-image:before {
   color: #2ea2cc;
-  outline:1px solid #2ea2cc;
+}
+
+#adminmenu .wp-submenu a:focus,
+#adminmenu .wp-submenu a:focus:hover,
+#adminmenu .wp-submenu a:focus-visible,
+#adminmenu .wp-submenu a.menu-top:focus,
+#adminmenu li.opensub a:focus,
+#adminmenu li.opensub>a.menu-top:focus,
+#adminmenu li.opensub a.menu-top:focus {
+  outline: 1px solid #2ea2cc;
   outline-offset: 2px;
-  border-radius:3px;
+  border-radius: 3px;
 }
 
 #adminmenu .current div.wp-menu-image:before,
